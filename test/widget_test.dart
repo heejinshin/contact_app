@@ -13,7 +13,7 @@ import 'package:monster_eyes_lock/main.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const Monstereyes());
+    await tester.pumpWidget( Monstereyes());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
